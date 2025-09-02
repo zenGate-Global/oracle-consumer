@@ -9,7 +9,7 @@ This is an example implementation of a contract which consumes merkle oracle dat
 
 After these checks, any business logic can be done as the data in the redeemer is now validated.
 
-In this exapmle, the business logic is to check that the value is greater than a threshold. If it is, the transaction builder can withdraw assets from this utxo.
+In this example, the business logic is to check that the value is greater than a threshold. If it is, the transaction builder can withdraw assets from this (self) utxo.
 
 ## Building
 
